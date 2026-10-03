@@ -225,6 +225,24 @@ figcaption {
   margin: 0 0 2.5em;
 }
 
+.about-portrait {
+  float: right;
+  width: 280px;
+  max-width: 45%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin: 0 0 1.5em 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .about-portrait {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.5em;
+  }
+}
+
 .home .post-list-heading,
 .home .page-heading {
   color: var(--text-muted);

@@ -2,8 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-image: /assets/cover-software-craftsmanship.jpeg
+image: /assets/about-me.jpeg
 ---
+
+<img class="about-portrait" src="{{ site.baseurl }}/assets/about-me.jpeg" alt="Eduardo R. Golding">
 
 Senior Software Architect and Engineering Manager. I've led large software projects for major organizations, advanced system efficiency, and guided technical strategy. I build engineering teams, coach engineers, and hold the work to high standards. My background is distributed architecture, microservices, and real-time data.
 
