@@ -1,8 +1,8 @@
-title: K4L1Ma
+title: Eduardo R. Golding
 description: Notes on software craftsmanship, systems, and engineering.
 url: "https://k4l1ma.github.io"
 baseurl: "/blog"
-author: Eduardo R Golding
+author: Eduardo R. Golding
 
 image: /assets/og-software-craftsmanship.png
 
@@ -14,7 +14,8 @@ plugins:
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
-header_pages: []
+header_pages:
+  - about.md
 
 exclude:
   - Gemfile
