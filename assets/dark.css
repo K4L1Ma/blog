@@ -226,12 +226,12 @@ figcaption {
 }
 
 .about-portrait {
-  float: right;
+  float: left;
   width: 280px;
   max-width: 45%;
   border-radius: 12px;
   border: 1px solid var(--border);
-  margin: 0 0 1.5em 2em;
+  margin: 0 2em 1.5em 0;
 }
 
 @media screen and (max-width: 600px) {
