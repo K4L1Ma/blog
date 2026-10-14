@@ -40,7 +40,7 @@ Staring into this mess, developers like to console themselves by claiming there 
 
 Every system gets an architecture whether you plan one or not. When leadership abandons deliberate design to chase short-term velocity metrics, system structure gets outsourced to sprint deadlines, desperate hotfixes, and raw LLM output merged under pressure.
 
-Instead of clear domain boundaries, you end up with a Big Ball of Mud where database tables are multi-tenant dumpsters and microservices communicate through global side effects. When the system inevitably hits a performance wall under this accidental design, nobody refactors. Management simply spins up 15 redundant Kubernetes pods in AWS to smother a memory leak and calls it modern DevOps.
+Instead of clear domain boundaries, you end up with a Big Ball of Mud where database tables are multi-tenant dumpsters and microservices communicate through global side effects. When the system inevitably hits a performance wall under this accidental design, nobody refactors. Management simply spins up 20 redundant Kubernetes pods in AWS to smother a memory leak and calls it modern DevOps.
 
 ## Drop the charades
 
